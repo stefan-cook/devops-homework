@@ -3,8 +3,8 @@ provider "google" {
   region      = "us-west1"
 }
 resource "google_service_account" "default" {
-  account_id   = "k8s-service-account"
-  display_name = "k8s-service-account"
+  account_id   = "k8s-deploy"
+  display_name = "k8s-deploy"
 }
 
 resource "google_container_cluster" "primary" {
