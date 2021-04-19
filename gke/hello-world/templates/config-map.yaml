@@ -3,7 +3,7 @@ data:
   index.html: "<!doctype html>\n<html lang=\"en\">\n<head>\n    <meta charset=\"utf-8\">\n
     \   <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge,chrome=1\">\n    <title>Kubernetes
     Hello World</title>\n</head>\n<body>\n\t<div id=\"content\">\n\t\t<h1>
-    Hello World</h1>\n\t</div>\n</body>\n</html>\n"
+    Hello World -love Stefan asdfasdfasdf </h1></div>\n</body>\n</html>\n"
 kind: ConfigMap
 metadata:
   name: index.html
